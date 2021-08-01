@@ -1,4 +1,7 @@
-
+// Pre Loader
+setTimeout(function(){
+    $('.loader-bg').fadeToggle();
+},1500);
 
 // Popup 1
 var openpopup = document.querySelector('#popup-btn')
